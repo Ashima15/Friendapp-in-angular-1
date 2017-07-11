@@ -1,0 +1,51 @@
+[
+    {
+        "name":"Papa",
+        "phone":9810449333,
+        "email":"acharyarajesh10@yahoo.in",
+        "images":"images/papa.jpg"
+    },
+    
+    {
+        "name":"Mummy",
+        "phone":9953665612,
+        "email":"-",
+        "images":"images/mummy.jpg"
+    },
+    
+    {
+        "name":"Amrit",
+        "phone":9654202507,
+        "email":"amritkharbanda@gmail.com",
+        "images":"images/amrit.jpg"
+    },
+    
+    {
+        "name":"Meenal",
+        "phone":9990148389,
+        "email":"meenaltaneja@gmail.com",
+        "images":"images/meenal.jpg"
+    },
+    
+    {
+        "name":"Komal",
+        "phone":7042425763,
+        "email":"komalb1408@gmail.com",
+        "images":"images/komal.jpg"
+    },
+    
+    {
+        "name":"Karan",
+        "phone":9910437637,
+        "email":"karanbatra31@gmail.com",
+        "images":"images/karan.jpg"
+    },
+    
+    {
+        "name":"Prashant",
+        "phone":9711002567,
+        "email":"prashant.upadhyay@gmail.com",
+        "images":"images/prashant.jpg"
+    }
+    
+]

@@ -1,0 +1,29 @@
+body{
+    
+    background-image: url("../images/bg6.jpg");
+    color: white;
+}
+
+.image{
+    
+    float: left;
+    height: 130px;
+    width: 100px;
+}
+
+.x{
+   text-align: center;
+    display: inline;
+    text-indent: inherit;
+    margin-left: -30px;
+}
+
+.box{
+    border: 1px solid black;
+    
+    align-content: flex-end;
+}
+
+.options{
+    text-align: right;
+}

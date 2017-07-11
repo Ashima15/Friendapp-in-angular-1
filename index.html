@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Friendapp</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/lib/angular.min.js"></script>
+    <script src="js/app.js"></script>
+    
+    
+    <script src="js/module/friendapp.js"></script>
+    <script src="js/controller/friendapp.js"></script>
+    
+</head>
+<body>
+    <div ng-app="myfriendapp" ng-controller="friendctrl">
+     <div class="options"> 
+     <input placeholder="search" ng-model="search">
+      <span>&nbsp; &nbsp; &nbsp; &nbsp; Sort By &nbsp; </span>
+         <select ng-model="sortby" placeholder="Sort" >
+          <option value="name">Name</option>
+          <option value="email">E-mail</option>
+      </select>
+        </div>
+       <ul ng-repeat="obj in result.data | filter:search | orderBy:sortby:order">
+        
+           <div class="box">
+            <img ng-src="{{obj.images}}" class="image">
+            <div class="x">
+            <p>{{obj.name}}</p> 
+            <p>{{obj.phone}} </p>
+              <p>  {{obj.email}} </p> </div> 
+            </div>
+           </div>
+        
+        </ul>
+    </div>
+</body>
+</html>
